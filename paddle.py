@@ -9,6 +9,7 @@ class Paddle(Turtle):
     def __init__(self, side):
         super().__init__()
         self.side = side
+        self.player_name = None
         self.score = 0
         self.create_paddle()
         print(f'paddle {side} criado')
@@ -24,9 +25,11 @@ class Paddle(Turtle):
             self.goto(-X_POS, Y_POS)
 
     def go_up(self):
-        new_y = self.ycor() + 20
-        self.goto(self.xcor(), new_y)
+        if not self.ycor() > 230:
+            new_y = self.ycor() + 20
+            self.goto(self.xcor(), new_y)
 
     def go_down(self):
-        new_y = self.ycor() - 20
-        self.goto(self.xcor(), new_y)
+        if not self.ycor() < -230:
+            new_y = self.ycor() - 20
+            self.goto(self.xcor(), new_y)
