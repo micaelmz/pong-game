@@ -8,7 +8,7 @@ The objective of this game is simple; play with a friend and try to make the bal
 ### Version 1.0 change log
 ```
 💡 IDEA! - PvE gameplay
-In the next update, I want try to make it possible to play this game versus the computer. Wait for it!
+In the next update, I want to try to make it possible to play this game versus the computer. Wait for it!
 ```
 
 
