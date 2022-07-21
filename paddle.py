@@ -12,7 +12,6 @@ class Paddle(Turtle):
         self.player_name = None
         self.score = 0
         self.create_paddle()
-        print(f'paddle {side} criado')
 
     def create_paddle(self):
         self.penup()

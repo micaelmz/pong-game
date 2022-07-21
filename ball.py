@@ -13,7 +13,6 @@ class Ball(Turtle):
         self.x_move = 2
         self.y_move = 2
         self.random_direction()
-        print('ball criada')
 
     def move(self):
         new_x = self.xcor() + self.x_move

@@ -12,7 +12,6 @@ FONT = ('Times New Roman', 30, 'normal')
 class Scenario:
 
     def __init__(self):
-        super().__init__()
         Screen().bgcolor('black')
         Screen().setup(width=WIDTH, height=HEIGHT)
         Screen().title('Pong')
@@ -28,7 +27,6 @@ class Scenario:
         self.create_scored_line()
         self.create_score_board()
         self.waiting_message()
-        print('screen criada')
 
     def create_wallbox(self):
         self.wall_box.hideturtle()
