@@ -8,7 +8,7 @@ The objective of this game is simple; play with a friend and try to make the bal
 ### Version 1.0 change log
 ```
 💡 IDEA! - PvE gameplay
-In the next update, I want to try to make it possible to play this game versus the computer. Wait for it!
+In the next update, I want try to make it possible to play this game versus the computer. Wait for it!
 ```
 
 
@@ -34,7 +34,9 @@ When the ball crosses the paddle of some player, as they can't reach the wall, i
 ## Leveling  & Game over
 As the player successfully defends the ball, bouncing it in the enemy's direction, the ball gets faster, making it harder to reach it.
 
-When the game starts running, the players have to type how many rounds will end the game, also their names. Then, when the scores of both players summed up reaches the value set at the start, the game ends, showing the player with a high score as the winner.
+When the game starts running, the players have to type how many rounds will end the game, also their names. 
+
+When the scores of both players summed up reaches the value set at the start, the game ends, showing the player with a high score as the winner.
 
 <img src="https://i.imgur.com/huq2C10.png"  width="500" />
 
